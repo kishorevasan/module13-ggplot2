@@ -2,7 +2,7 @@
 
 # Install and load `ggplot2`
 # install.packages("ggplot2") # if needed
-
+library(ggplot2)
 
 # For this exercise you will again be working with the `diamonds` data set.
 # Use `?diamonds` to review details about this data set
@@ -13,7 +13,7 @@
 
 # Draw a bar chart of the diamonds data, organized by cut
 # The height of each bar is based on the "count" (number) of diamonds with that cut
-
+ggplot(data = diamonds,)
 
 # Use the `stat_count` to apply the statistical transformation "count" to the diamonds
 # by cut. You do not need a separate geometry layer!
