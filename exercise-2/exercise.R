@@ -2,7 +2,13 @@
 
 # Install and load `ggplot2`
 # install.packages("ggplot2") # if needed
+<<<<<<< HEAD
 library(ggplot2)
+||||||| merged common ancestors
+library("ggplot2")
+=======
+
+>>>>>>> e785138e326afca3835b10fc8f7be8f34106b31a
 
 # For this exercise you will again be working with the `diamonds` data set.
 # Use `?diamonds` to review details about this data set
@@ -13,7 +19,14 @@ library(ggplot2)
 
 # Draw a bar chart of the diamonds data, organized by cut
 # The height of each bar is based on the "count" (number) of diamonds with that cut
+<<<<<<< HEAD
 ggplot(data = diamonds,)
+||||||| merged common ancestors
+ggplot(data = diamonds) +
+  geom_bar(mapping = aes(x=cut))
+=======
+
+>>>>>>> e785138e326afca3835b10fc8f7be8f34106b31a
 
 # Use the `stat_count` to apply the statistical transformation "count" to the diamonds
 # by cut. You do not need a separate geometry layer!
